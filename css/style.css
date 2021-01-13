@@ -1,0 +1,214 @@
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 5680px;
+  /* 作業用色 */
+  background-color: #e6e6e6;
+  /*background-color: #ffffff;*/
+}
+
+header {
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  background-color: #ffffff;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+
+}
+
+h1 {
+  float: left;
+  padding-top: 24px;
+}
+
+h1 a{
+  display: block;
+  position: absolute;
+  width: 223px;
+  height: 50px;
+  left: 57px;
+  top: 24px;
+  font-size: 0;
+  background: url(../img/リレセスロゴ.png);
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header__nav__list {
+  position: absolute;
+  left: 417px;
+  top: 34px;
+}
+
+.header__nav__list ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+.header__nav__list li {
+  margin: 0 0 0 33px;
+  font-family: YuGothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.main-visual {
+  position: absolute;
+  width: 1440px;
+  height: 800px;
+  left: 0px;
+  top: 100px;
+  background: url(../img/Rectangle\ 115.png);
+}
+
+.main-visual h2 {
+  position: absolute;
+  width: 963px;
+  height: 99px;
+  left: 269px;
+  top: 578px;
+
+  font-family: YuGothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 96px;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+.main-visual h3 {
+  position: absolute;
+  width: 1032px;
+  height: 102px;
+  left: 235px;
+  top: 677px;
+
+  font-family: A-OTF MainichiNewspapersG Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 96px;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  white-space: pre;
+}
+
+.section-header {
+  position: absolute;
+  width: 1440px;
+  height: 150px;
+  left: 0px;
+  top: 900px;
+  
+  background: linear-gradient(180deg, #010101 0%, rgba(255, 255, 255, 0) 100%), #010101;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section-header__ttl {
+  position: absolute;
+  width: 1200px;
+  height: 96px;
+  left: 120px;
+  top: 26px;
+  
+  font-family: A-OTF A1 Mincho Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 96px;
+  
+  /* identical to box height */
+  
+  color: #FFFFFF;
+}
+
+.section-about__img {
+  position: absolute;
+  width: 938.59px;
+  height: 670px;
+  left: 503px;
+  top: 1234px;
+
+  background: url(../img/スクリーンショット\ 2020-01-23\ 20.35\ 1.png);
+}
+
+.section-about__text h2 {
+  position: absolute;
+  width: 333px;
+  height: 123px;
+  left: 170px;
+  top: 1234px;
+  
+  font-family: A-OTF A1 Mincho Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 144px;
+  text-align: center;
+  
+  color: #000000;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  white-space: pre;
+}
+
+.section-about__text p {
+  position: absolute;
+  width: 768px;
+  height: 318px;
+  left: 171px;
+  top: 1439px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  
+  color: #333333;
+  
+  border: 1px solid  rgba(255, 255, 255, 0);
+}
+
+.section-about__text h3 {
+  position: absolute;
+  width: 250px;
+  height: 60px;
+  left: 170px;
+  top: 1844px;
+
+background: #FFEF5D;
+}
+
+.section-about__text a {
+  position: absolute;
+  width: 126px;
+  height: 36px;
+  left: 62px;
+  top: 12px;
+
+  font-family: YuGothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+
+  /* identical to box height */
+
+  color: #000000;
+}
