@@ -2,9 +2,7 @@
 
   目次
 
-  0.header
-
-  1.index.html
+  1.top2.html
 
     1-1 メインビジュアル
     1-2 About us セクション
@@ -30,7 +28,7 @@ body {
 
 /*-----------------------------------------------
 
-0 header
+1-1 メインビジュアル
 
 -----------------------------------------------*/
 
@@ -87,12 +85,6 @@ a {
   font-size: 22px;
   line-height: 33px;
 }
-
-/*-----------------------------------------------
-
-1-1 メインビジュアル
-
------------------------------------------------*/
 
 .main-visual {
   position: absolute;
@@ -229,8 +221,8 @@ a {
   height: 60px;
   left: 170px;
   top: 1844px;
-  
-  background: #FFEF5D;
+
+  background:  #000000;
 }
 
 .section-about__btn {
@@ -246,7 +238,7 @@ a {
   font-size: 24px;
   line-height: 36px;
 
-  color: #000000;
+  color: #FFEF5D;
 }
 
 /*-----------------------------------------------
@@ -322,7 +314,7 @@ a {
   align-items: center;
   text-align: center;
   
-  color: #000000;
+  color: #7CB794;
   
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -370,7 +362,7 @@ a {
   line-height: 37px;
   text-align: center;
   
-  color: #000000;
+  color: #7CB794;
   
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -418,7 +410,7 @@ a {
   line-height: 37px;
   text-align: center;
   
-  color: #000000;
+  color: #7CB794;
   
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -818,7 +810,7 @@ a {
   left: 570px;
   top: 4877px;
   
-  border: 3px solid #FFFFFF;
+  border: 3px solid #FFEF5D;
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -827,7 +819,7 @@ a {
   content: '';
   width: calc(100% + 26px);
   height: calc(100% + 20px);
-  border: 5px solid #FFFFFF;
+  border: 5px solid #FFEF5D;
   position: absolute;
   top: -15px;
   left: -18px;
@@ -851,7 +843,7 @@ a {
   align-items: center;
   text-align: center;
   
-  color: #FFFFFF;
+  color: #FFEF5D;
   
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
