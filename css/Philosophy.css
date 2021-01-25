@@ -1,0 +1,264 @@
+ /*-----------------------------------------------
+
+  目次
+
+  1.philosophy.html
+
+    1-1 メインビジュアル
+    1-2 Philosophy 企業理念 セクション
+      カテゴリー
+      見出し
+      本文
+  
+  2.footer
+
+-----------------------------------------------*/
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 2500px;
+  margin-right: auto; /* 上下左右中央寄せ */
+  margin-left : auto; /* 上下左右中央寄せ */
+  /* 作業用色 */
+  /*background-color: #e6e6e6;*/
+  background-color: #ffffff;
+}
+
+
+/*-----------------------------------------------
+
+1-1 メインビジュアル
+
+-----------------------------------------------*/
+
+.main-visual__philosophy {
+  position: absolute;
+  width: 1440px;
+  height: 400px;
+  left: 0px;
+  top: 100px;
+  
+  background: url(../img/philosophy_visual.png);
+}
+
+.main-visual__philosophy h2 {
+  position: absolute;
+  width: 463px;
+  height: 124px;
+  left: 532px;
+  top: 108px;
+  
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 172%;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-visual__philosophy h3 {
+
+  position: absolute;
+  width: 192px;
+  height: 83px;
+  left: 651px;
+  top: 229px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 172%;
+  white-space: nowrap;
+
+  color: #FFFFFF;
+  
+  /* border: 1px solid #C4C4C4; */ 
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+/*-----------------------------------------------
+
+1-2 Philosophy 企業理念 セクション
+
+-----------------------------------------------*/
+
+.section-Philosophy__ttl {
+  position: absolute;
+  width: 870px;
+  height: 0px;
+  left: 0px;
+  top: 750px;
+  
+  border: 3px solid #7CB794;
+}
+
+.section-Philosophy__ttl h2 {
+  position: absolute;
+  width: 390px;
+  height: 70px;
+  left: 170px;
+  bottom: 20px;
+  
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 90px;
+  display: flex;
+  align-items: center;
+  
+  color: #000000;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section-Philosophy__ttl h3 {
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  left: 560px;
+  bottom: 25px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+}
+
+/*
+  カテゴリー
+-----------------------------------------------*/
+.section-Philosophy__category {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  
+  color: #7CB794;
+}
+
+#category1.section-Philosophy__category {
+  position: absolute;
+  width: 801px;
+  height: 26px;
+  left: 220px;
+  top: 835px;
+}
+
+#category2.section-Philosophy__category {
+  position: absolute;
+  width: 801px;
+  height: 35px;
+  left: 220px;
+  top: 1192px;
+}
+
+#category3.section-Philosophy__category {
+  position: absolute;
+  width: 801px;
+  height: 35px;
+  left: 220px;
+  top: 1491px;
+}
+
+/*
+  見出し
+-----------------------------------------------*/
+.section-Philosophy__heading {
+  font-family: '游ゴシック', 'Yu Gothic', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  
+  color: #333333;
+}
+
+#heading1.section-Philosophy__heading {
+  position: absolute;
+  width: 801px;
+  height: 45px;
+  left: 220px;
+  top: 869px;
+}
+
+#heading2.section-Philosophy__heading {
+  position: absolute;
+  width: 801px;
+  height: 48px;
+  left: 220px;
+  top: 1226px;
+}
+
+#heading3.section-Philosophy__heading {
+  position: absolute;
+  width: 801px;
+  height: 48px;
+  left: 220px;
+  top: 1525px;
+}
+
+/*
+  本文
+-----------------------------------------------*/
+.section-Philosophy__text {
+  font-family: '游ゴシック', 'Yu Gothic', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  white-space: pre-line;
+
+  color: #333333;
+}
+
+#text1.section-Philosophy__text {
+  position: absolute;
+  width: 1000px;
+  height: 165px;
+  left: 220px;
+  top: 929px;
+}
+
+#text2.section-Philosophy__text {
+  position: absolute;
+  width: 1000px;
+  height: 140px;
+  left: 220px;
+  top: 1285px;
+}
+
+#text3.section-Philosophy__text {
+  position: absolute;
+  width: 1050px;
+  height: 210px;
+  left: 220px;
+  top: 1586px;
+}
+
+/*-----------------------------------------------
+
+2 footer
+
+-----------------------------------------------*/
+
+.footer {
+  position: absolute;
+  width: 1440;
+  height: 450;
+  left: 0px;
+  top: 2050px;
+}
+ 
