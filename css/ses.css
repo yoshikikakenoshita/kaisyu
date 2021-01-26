@@ -1,0 +1,318 @@
+/*-----------------------------------------------
+
+  目次
+
+  1.company.html
+
+    1-1 メインビジュアル
+    1-2 Company 会社概要 セクション
+    1-3 Access アクセス セクション
+  
+  2.footer
+
+-----------------------------------------------*/
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 5500px;
+    
+  margin-right: auto; /* 上下左右中央寄せ */
+  margin-left : auto; /* 上下左右中央寄せ */
+  /* 作業用色 */
+  /* background-color: #e6e6e6; */
+  background-color: #ffffff;
+}
+
+/*-----------------------------------------------
+
+1-1 メインビジュアル
+
+-----------------------------------------------*/
+
+.main-visual__ses {
+  position: absolute;
+  width: 1440px;
+  height: 400px;
+  left: 0px;
+  top: 100px;
+  
+  background: url(../img/ses_visual.png);
+}
+
+.main-visual__ses h2 {
+  position: absolute;
+  width: 808px;
+  height: 124px;
+  left: 321px;
+  top: 106px;
+  
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 172%;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-visual__ses h3 {
+  position: absolute;
+  width: 192px;
+  height: 83px;
+  left: 629px;
+  top: 227px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 172%;
+  
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*-----------------------------------------------
+
+1-2 System Integration 開発実績 セクション
+
+-----------------------------------------------*/
+
+.section-ses__ttl {
+  position: absolute;
+  width: 1150px;
+  height: 0px;
+  left: 0px;
+  top: 750px;
+  
+  border: 3px solid #7CB794;
+}
+
+.section-ses__ttl h2 {
+  position: absolute;
+  width: 673px;
+  height: 90px;
+  left: 170px;
+  bottom: 0px;
+  
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 90px;
+
+  display: flex;
+  align-items: center;
+  
+  color: #000000;
+}
+
+.section-ses__ttl h3 {
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  left: 900px;
+  bottom: 25px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.section-ses__headLine h2{
+  position: absolute;
+  width: 1026px;
+  height: 100px;
+  left: 207px;
+  top: 850px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  
+  color: #000000;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section-ses__headLine p {
+  position: absolute;
+  width: 1000px;
+  height: 185px;
+  left: 220px;
+  top: 1000px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #333333;
+}
+
+/*
+  開発実績
+-----------------------------------------------*/
+.second-ses__ttl {
+  position: absolute;
+  width: 1100px;
+  height: 0px;
+  left: 170px;
+  top: 1370px;
+  
+  border: 3px solid #6FCF97;
+}
+
+.second-ses__ttl::after {
+  position: absolute;
+  width: 20px;
+  height: 60px;
+  left: -3px;
+  bottom: 3px;
+  content: '';
+
+  background: #6FCF97;
+}
+
+.second-ses__ttl h2 {
+  position: absolute;
+  width: 1000px;
+  height: 80px;
+  left: 50px;
+  bottom: -6px;
+  
+  font-family: '游ゴシック', 'Yu Gothic', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  
+  color: #333333;
+}
+
+
+/*
+  契約書管理システム
+-----------------------------------------------*/
+.ses-conts1__ttl h2 {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 262px;
+  top: 1430px;
+  
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  
+  color: #000000;
+}
+
+.ses-conts1__ttl h2::after {
+  position: absolute;
+  width: 20px;
+  height: 60px;
+  left: -40px;
+  top: -12px;
+  content: '';
+  /* Green 3 */
+  background: #6FCF97;
+}
+
+.conts1-table {
+  position: absolute;
+  width: 1000px;
+  height: 760px;
+  left: 220px;
+  top: 1500px;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  mix-blend-mode: normal;
+  box-sizing: border-box;
+}
+
+.conts1-table,th,td {
+  border: 2px solid #8F8F8F;
+}
+
+.conts1-th {
+  width: 200px;
+  background: #E5E5E5;
+  text-align: center;
+  vertical-align: middle;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.conts1-td-pickup1 {
+  width: 791px;
+  text-align: center;
+  vertical-align: middle;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #333333;
+}
+
+.conts1-td-pickup2 {
+  width: 791px;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 37px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #333333;
+}
+
+.conts1-item1 {
+  height: 70px;
+}
+
+.conts1-item2 {
+  height: 190px;
+}
+
+.conts1-item3 {
+  height: 100px;
+}
+
+.conts1-item4 {
+  height: 329px;
+}
+
+/*
+  オンラインウォレットサービス
+-----------------------------------------------*/
