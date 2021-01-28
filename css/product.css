@@ -1,0 +1,82 @@
+/*-----------------------------------------------
+
+  目次
+
+  1.product.html
+
+    1-1 メインビジュアル
+    1-2 Company 会社概要 セクション
+    1-3 Access アクセス セクション
+  
+  2.footer
+
+-----------------------------------------------*/
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 5500px;
+    
+  margin-right: auto; /* 上下左右中央寄せ */
+  margin-left : auto; /* 上下左右中央寄せ */
+  /* 作業用色 */
+  background-color: #e6e6e6;
+  /* background-color: #ffffff; */
+}
+
+/*-----------------------------------------------
+
+1-1 メインビジュアル
+
+-----------------------------------------------*/
+
+.main-visual__product {
+  position: absolute;
+  width: 1440px;
+  height: 400px;
+  left: 0px;
+  top: 100px;  
+
+  background: url(../img/product_visual.png);
+}
+
+.main-visual__product h2 {
+  position: absolute;
+  width: 898px;
+  height: 124px;
+  left: 281px;
+  top: 106px;
+  
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 172%;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+.main-visual__product h3 {
+  position: absolute;
+  width: 192px;
+  height: 83px;
+  left: 619px;
+  top: 227px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 172%;
+  
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*-----------------------------------------------
+
+1-2 ProductDevelopment 製品情報 セクション
+
+-----------------------------------------------*/

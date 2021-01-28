@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/philosophy.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <title>企業理念</title>
 </head>
 <body>
@@ -14,9 +19,9 @@
       <ul>
         <li><a href="index.html">HOME</a></li>
         <li><a href="company.html">会社概要</a></li>
-        <li><a href="#">事業内容</a></li>
+        <li><a href="service.html">事業内容</a></li>
         <li><a href="#">NEWS</a></li>
-        <li><a href="#">採用情報</a></li>
+        <li><a href="#">採用情報</a></li> 
         <li><a href="#">パートナー募集</a></li>
         <li><a href="#">お問合せ</a></li>
       </ul>
@@ -24,22 +29,104 @@
   </header>
 
   <main class="main-content">
-    <div class="main-visual">
+    <div class="main-visual__philosophy">
       <h2>Philosophy</h2>
-      <h3>-企業理念-</h3>
+      <h3>企業理念</h3>
     </div>
     <section class="first-section">
       <div class="first-section__Philosophy section-Philosophy">
+        <div class="section-Philosophy__ttl">
+          <h2>Philosophy</h2>
+          <h3>-企業理念-</h3>
+        </div>
         <dl>
-          <dt>MISSION</dt>
-          <dt>お客様に役立つ企業</dt>
-            <dd>
-              お客様に役立つ企業とはどの様な企業でしょうか。<br>
-              ただお客様のご要望をお聞きし、実現するだけではお役に立てているとは言いきれません。お客様のご要望を実現しつつ、更にお客様に役立つご提案ができる企業でなければなりません。そのために、リレセスでは知識・経験を豊富に持ち合わせた技術力を中心とし、常にご提案を含めより良いサービスをお客様にご提供いたします。
+          <dt class="section-Philosophy__category" id="category1">MISSION</dt>
+          <dt class="section-Philosophy__heading" id="heading1">お客様に役立つ企業</dt>
+            <dd class="section-Philosophy__text" id="text1">
+              お客様に役立つ企業とはどの様な企業でしょうか。
+              ただお客様のご要望をお聞きし、実現するだけではお役に立てているとは言いきれません。お客様の
+              ご要望を実現しつつ、更にお客様に役立つご提案ができる企業でなければなりません。そのために、
+              リレセスでは知識・経験を豊富に持ち合わせた技術力を中心とし、常にご提案を含めより良いサービ
+              スをお客様にご提供いたします。
+            </dd>
+          <dt class="section-Philosophy__category" id="category2">VISION</dt>
+          <dt class="section-Philosophy__heading" id="heading2">社員に役立つ企業</dt>
+            <dd class="section-Philosophy__text" id="text2">
+              お客様はもちろん、社員一人ひとりにも幸せになってもらいたいという思いからリレセスは誕生しま
+              した。お客様のため、社会のために実績を残した社員は十分に評価してあげたい。リレセスに所属し
+              ている事を幸せと思ってもらえるよう、出来る限り社員の思いを汲み取り、 応えていける企業を目指
+              しています。
+            </dd>
+          <dt class="section-Philosophy__category" id="category3">VALUE</dt>
+          <dt class="section-Philosophy__heading" id="heading3">社会に役立つ企業</dt>
+            <dd class="section-Philosophy__text" id="text3">
+              江戸時代から伝わる言葉に「三方よし」という言葉があります。
+              「Win-Winの関係」という概念がありますが、「三方よし」とは「Win−Winの関係」に「社会」も含
+              めたものであり、交渉者間だけでなく、社会にとっても「Win」でなければならないという概念で
+              す。CSRが唱えられる遥か昔から日本で唱えられていたこの概念を大切にし、一企業として存在する
+              からには、企業の社会的責任を果たさなければならないと考えます。リレセスはICTを通じての社会貢
+              献を目指します。
             </dd>
         </dl>
       </div>
     </section>
   </main>
+  <footer class="footer">
+    <div class="footer__top footer-top">
+      <div class="footer-top__block">
+        <div class="footer-top__img"></div>
+        <div class="footer-top__ttl">
+          <h2>リレセス株式会社</h2>
+        </div>
+        <div class="footer-top__text" id="info1">
+          <h2>【Head Office】</h2>
+          <p>〒105-6021<br>
+            東京都港区虎ノ門4-3-1 城山トラストタワー21階
+          </p>
+        </div>
+        <div class="footer-top__text" id="info2">
+          <h2>【Tokyo Office】</h2>
+          <p>〒160-0022<br>
+            東京都新宿区新宿1-9-1 第2タケビル4階</p>
+        </div>
+        <div class="footer-top__text" id="info3">
+          <h2>【Osaka Office】</h2>
+          <p>〒532-0011 <br>
+            大阪市淀川区西中島5-1-4 モジュール新大阪1003</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer__side footer-side">
+      <a href="#">
+        <div class="footer-side__block">
+          <div class="footer-side__img"></div>
+          <div class="footer-side__ttl">
+            <h2>COTACT</h2>
+          </div>
+          <div class="footer-side__text">
+            <h3>お見積もり・ご相談・お問合せはこちら</h3>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="footer__bottom footer-bottom">
+      <div class="footer-bottom__block">
+        <div class="footer-bottom__left">
+          <p>© 2020  Lireses Co.Ltd. All rights reserved</p>
+        </div>
+        <div class="footer-bottom__center">
+          <a href="#">
+            <p>プライバシーポリシー</p>
+          </a>
+        </div>
+        <div class="footer-bottom__right">
+          <a href="#">
+            <p>サイトマップ</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

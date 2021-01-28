@@ -241,7 +241,11 @@ body {
   
   color: #333333;
 }
+/*-----------------------------------------------
 
+1-3 受託開発 セクション
+
+-----------------------------------------------*/
 
 /*
   契約書管理システム
@@ -510,9 +514,12 @@ body {
   top: 3842px;
 }
 
-/*
-  組込系開発
+/*-----------------------------------------------
+
+1-4 組込系開発 セクション
+
 -----------------------------------------------*/
+
 .ses-conts5__ttl h2 {
   position: absolute;
   width: 150px;
@@ -612,6 +619,7 @@ body {
 }
 
 #item12.conts5-td {
+  text-align: left;
   padding-left: 29px;
   padding-right: 31px;
 }
@@ -619,6 +627,135 @@ body {
 #item13.conts5-td {
   text-align: left;
   padding-left: 14px;
-  padding-right: 16px;
-  
+  padding-right: 16px; 
 }
+
+/*
+  TOPボタン 位置
+-----------------------------------------------*/
+.pageTop2 {
+  position: absolute;
+  left: 1159px;
+  top: 4462px;
+}
+
+/*-----------------------------------------------
+
+1-5 WEB/アプリケーション開発 セクション
+
+-----------------------------------------------*/
+
+.ses-conts6__ttl h2 {
+  position: absolute;
+  width: 330px;
+  height: 40px;
+  left: 262px;
+  top: 4572px;
+  
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  
+  color: #000000;
+}
+
+.ses-conts6__ttl h2::after {
+  position: absolute;
+  width: 20px;
+  height: 60px;
+  left: -40px;
+  top: -12px;
+  content: '';
+  /* Green 3 */
+  background: #6FCF97;
+}
+
+.conts6-table {
+  position: absolute;
+  width: 1000px;
+  height: 378px;
+  left: 220px;
+  top: 4642px;
+  
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  mix-blend-mode: normal;
+  box-sizing: border-box;
+}
+
+.conts6-table,th,td {
+  border: 2px solid #8F8F8F;
+}
+
+.conts6-th {
+  height: 77px;
+  background: #E5E5E5;
+  text-align: center;
+  vertical-align: middle;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#item14.conts6-th {
+  width: 242px;
+}
+
+#item15.conts6-th {
+  width: 220px;
+}
+
+#item16.conts6-th {
+  width: 153px;
+}
+
+#item17.conts6-th {
+  width: 121px;
+}
+
+#item18.conts6-th {
+  width: 122px;
+}
+
+#item19.conts6-th {
+  width: 142px;
+}
+
+.conts6-td {
+  
+  vertical-align: middle;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #333333;
+}
+
+#item20.conts6-td {
+  text-align: center;
+}
+
+#item21.conts6-td {
+  padding-left: 16px;
+}
+
+#item22.conts6-td {
+  padding-left: 16px;
+}
+
+/*
+  TOPボタン
+-----------------------------------------------*/
+.pageTop3 {
+  position: absolute;
+  left: 1159px;
+  top: 5062px;
+}
+
