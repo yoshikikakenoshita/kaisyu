@@ -24,6 +24,40 @@ body {
   background-color: #ffffff;
 }
 
+/*
+  TOPボタン
+-----------------------------------------------*/
+.ses-pageTop {
+  position: absolute;
+  width: 39px;
+  height: 23px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  
+  color: #7CB794;
+}
+
+.ses-pageTop::before {
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 50px;
+  top: -5px;
+  left: -7px;
+  border-top: solid 3px  #7CB794;
+  border-right: solid 3px #7CB794;
+  transform: rotate(-45deg);
+  margin-top: -5px;
+}
+
+.ses-pageTop a {
+  scroll-behavior: smooth;
+}
+
 /*-----------------------------------------------
 
 1-1 メインビジュアル
@@ -261,7 +295,7 @@ body {
   text-align: center;
   vertical-align: middle;
 
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -273,7 +307,7 @@ body {
   text-align: center;
   vertical-align: middle;
 
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -288,7 +322,7 @@ body {
   vertical-align: middle;
   padding-left: 37px;
 
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -316,3 +350,275 @@ body {
 /*
   オンラインウォレットサービス
 -----------------------------------------------*/
+.conts2-table {
+  position: absolute;
+  width: 1000px;
+  height: 630px;
+  left: 220px;
+  top: 2359px;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  mix-blend-mode: normal;
+  box-sizing: border-box;
+}
+
+.conts2-table,th,td {
+  border: 2px solid #8F8F8F;
+}
+
+.conts2-th {
+  width: 200px;
+  background: #E5E5E5;
+  text-align: center;
+  vertical-align: middle;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.conts2-td-pickup1 {
+  width: 791px;
+  text-align: center;
+  vertical-align: middle;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #333333;
+}
+
+.conts2-td-pickup2 {
+  width: 791px;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 37px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #333333;
+}
+
+.conts2-item1 {
+  height: 70px;
+}
+
+.conts2-item2 {
+  height: 140px;
+}
+
+.conts2-item3 {
+  height: 90px;
+}
+
+.conts2-item4 {
+  height: 260px;
+}
+
+/*
+  歯科医院予約アプリ
+-----------------------------------------------*/
+.conts3-table {
+  position: absolute;
+  width: 1000px;
+  height: 700px;
+  left: 221px;
+  top: 3087px;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  mix-blend-mode: normal;
+  box-sizing: border-box;
+}
+
+.conts3-table,th,td {
+  border: 2px solid #8F8F8F;
+}
+
+.conts3-th {
+  width: 200px;
+  background: #E5E5E5;
+  text-align: center;
+  vertical-align: middle;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.conts3-td-pickup1 {
+  width: 791px;
+  text-align: center;
+  vertical-align: middle;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #333333;
+}
+
+.conts3-td-pickup2 {
+  width: 791px;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 37px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #333333;
+}
+
+.conts3-item1 {
+  height: 70px;
+}
+
+.conts3-item2 {
+  height: 140px;
+}
+
+.conts3-item3 {
+  height: 90px;
+}
+
+.conts3-item4 {
+  height: 329px;
+}
+
+/*
+  TOPボタン 位置
+-----------------------------------------------*/
+.pageTop1 {
+  position: absolute;
+  left: 1159px;
+  top: 3842px;
+}
+
+/*
+  組込系開発
+-----------------------------------------------*/
+.ses-conts5__ttl h2 {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 262px;
+  top: 3947px;
+  
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  
+  color: #000000;
+}
+
+.ses-conts5__ttl h2::after {
+  position: absolute;
+  width: 20px;
+  height: 60px;
+  left: -40px;
+  top: -12px;
+  content: '';
+  /* Green 3 */
+  background: #6FCF97;
+}
+
+.conts5-table {
+  position: absolute;
+  width: 1000px;
+  height: 395px;
+  left: 220px;
+  top: 4017px;
+  
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  mix-blend-mode: normal;
+  box-sizing: border-box;
+}
+
+.conts5-table,th,td {
+  border: 2px solid #8F8F8F;
+}
+
+.conts5-th {
+  height: 77px;
+  background: #E5E5E5;
+  text-align: center;
+  vertical-align: middle;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#item5.conts5-th {
+  width: 242px;
+}
+
+#item6.conts5-th {
+  width: 280px;
+}
+
+#item7.conts5-th {
+  width: 93px;
+}
+
+#item8.conts5-th {
+  width: 121px;
+}
+
+#item9.conts5-th {
+  width: 122px;
+}
+
+#item10.conts5-th {
+  width: 142px;
+}
+
+.conts5-td {
+  text-align: center;
+  vertical-align: middle;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #333333;
+}
+
+#item11.conts5-td {
+  padding-left: 32px;
+  padding-right: 33px;
+}
+
+#item12.conts5-td {
+  padding-left: 29px;
+  padding-right: 31px;
+}
+
+#item13.conts5-td {
+  text-align: left;
+  padding-left: 14px;
+  padding-right: 16px;
+  
+}
