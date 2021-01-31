@@ -22,13 +22,13 @@ body {
   margin-right: auto; /* 上下左右中央寄せ */
   margin-left : auto; /* 上下左右中央寄せ */
   /* 作業用色 */
-  /*background-color: #e6e6e6;*/
-  background-color: #ffffff;
+  background-color: #e6e6e6;
+  /* background-color: #ffffff; */
 }
 
 /*-----------------------------------------------
 
-1-1 メインビジュアル
+0 header
 
 -----------------------------------------------*/
 
@@ -57,7 +57,7 @@ h1 a{
   top: 24px;
   font-size: 0;
 
-  background: url(../img/リレセスロゴ.png);
+  background: url(../img/lireses_logo.png);
 }
 
 a {
@@ -86,16 +86,22 @@ a {
   line-height: 33px;
 }
 
-.main-visual {
+/*-----------------------------------------------
+
+1-1 メインビジュアル
+
+-----------------------------------------------*/
+
+.main-visual__top {
   position: absolute;
   width: 1440px;
   height: 800px;
   left: 0px;
   top: 100px;
-  background: url(../img/Rectangle\ 115.png);
+  background: url(../img/top_visual.png);
 }
 
-.main-visual h2 {
+.main-visual__top h2 {
   position: absolute;
   width: 963px;
   height: 99px;
@@ -113,7 +119,7 @@ a {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
-.main-visual h3 {
+.main-visual__top h3 {
   position: absolute;
   width: 1032px;
   height: 102px;
@@ -139,7 +145,7 @@ a {
   left: 0px;
   top: 900px;
   
-  background: url(../img/Rectangle\ 1.png);
+  background: url(../img/top_header.png);
 }
 
 .section-header__ttl {
@@ -171,7 +177,7 @@ a {
   left: 503px;
   top: 1234px;
 
-  background: url(../img/スクリーンショット\ 2020-01-23\ 20.35\ 1.png);
+  background: url(../img/top_about.png);
 }
 
 .section-about__ttl {
@@ -296,7 +302,7 @@ a {
   left: 170px;
   top: 178px;
   
-  background: url(../img/Rectangle\ 4.png);
+  background: url(../img/top_content1.png);
 }
 
 #content1.section-service__block .section-service__text h3 {
@@ -345,7 +351,7 @@ a {
   left: 555px;
   top: 178px;
   
-  background: url(../img/Rectangle\ 5.png);
+  background: url(../img/top_content2.png);
 }
 
 #content2.section-service__block .section-service__text h3 {
@@ -393,7 +399,7 @@ a {
   left: 940px;
   top: 178px;
   
-  background: url(../img/Rectangle\ 6.png);
+  background: url(../img/top_content3.png);
 }
 
 #content3.section-service__block .section-service__text h3 {
@@ -572,7 +578,7 @@ a {
   left: 0px;
   top: 3630px;  
   
-  background: url(../img/Rectangle\ 10.png);
+  background: url(../img/top_content4.png);
 }
 
 #content4.section-content__block .section-content__text h2 {
@@ -623,7 +629,7 @@ a {
   left: 720px;
   top: 3630px;
   
-  background: url(../img/Rectangle\ 9.png);
+  background: url(../img/top_content5.png);
 }
 
 #content5.section-content__block .section-content__text h2 {
@@ -674,7 +680,7 @@ a {
   left: 0px;
   top: 4130px;
 
-  background: url(../img/Rectangle\ 57.png);
+  background: url(../img/top_content6.png);
 }
 
 #content6.section-content__block .section-content__text h2 {
@@ -725,7 +731,7 @@ a {
   left: 720px;
   top: 4130px;
   
-  background: url(../img/Rectangle\ 56.png);
+  background: url(../img/top_content7.png);
 }
 
 #content7.section-content__block .section-content__text h2 {
@@ -779,7 +785,7 @@ a {
   left: 0px;
   top: 4630px;
   
-  background: url(../img/Rectangle\ 12.png); 
+  background: url(../img/top_entry.png); 
 }
 
 .section-entry__ttl {
@@ -874,6 +880,14 @@ a {
 
 -----------------------------------------------*/
 
+.footer {
+  position: absolute;
+  width: 1440;
+  height: 450;
+  left: 0px;
+  top: 5230px;
+}
+
 /*
   footer 会社情報
 -----------------------------------------------*/
@@ -882,7 +896,7 @@ a {
   width: 890px;
   height: 370px;
   left: 0px;
-  top: 5230px;
+  top: 0px;
   
   background: #010101;
 }
@@ -894,7 +908,7 @@ a {
   left: 57px;
   top: 39px;
   
-  background: url(../img/リレセスロゴ.png);
+  background: url(../img/lireses_logo.png);
   background-repeat: no-repeat;
 }
 
@@ -1029,7 +1043,7 @@ a {
   width: 550px;
   height: 450px;
   left: 890px;
-  top: 5230px;
+  top: 0px;
   
   background: #FFEF5D;
 }
@@ -1046,7 +1060,7 @@ a {
   left: 135px;
   top:53px;
   
-  background: url(../img/メール\ 1.png);
+  background: url(../img/footer_cotact.png);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -1097,7 +1111,7 @@ a {
   width: 890px;
   height: 80px;
   left: 0px;
-  top: 5600px;
+  top: 370px;
   
   background: #1F1E1E;
 }
