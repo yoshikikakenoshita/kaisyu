@@ -2,13 +2,13 @@
 
   目次
 
-  1.philosophy.html
+  1.service.html
 
     1-1 メインビジュアル
-    1-2 Philosophy 企業理念 セクション
-      カテゴリー
-      見出し
-      本文
+    1-2 Service 事業内容 セクション
+      開発実績
+      製品情報
+      デザイン
   
   2.footer
 
@@ -86,7 +86,7 @@ body {
 
 -----------------------------------------------*/
 
-.first-section-service__ttl {
+.intro-section-service__ttl {
   position: absolute;
   width: 770px;
   height: 0px;
@@ -96,7 +96,7 @@ body {
   border: 3px solid #7CB794;
 }
 
-.first-section-service__ttl h2 {
+.intro-section-service__ttl h2 {
   position: absolute;
   width: 264px;
   height: 90px;
@@ -116,7 +116,7 @@ body {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.first-section-service__ttl h3 {
+.intro-section-service__ttl h3 {
   position: absolute;
   width: 150px;
   height: 35px;
@@ -138,22 +138,324 @@ body {
 /*
   開発実績
 -----------------------------------------------*/
-#content1 {
+#content1.service__block {
   position: absolute;
   width: 1440px;
   height: 650px;
   left: 0px;
   top: 890px;
 
+background: #F7F7F7;
+}
+
+#content1.service__block .service__img {
+  position: absolute;
+  width: 550px;
+  height: 500px;
+  left: 169px;
+  top: 69px;
+  
+  background: url(../img/service_content1.png);
+  background-repeat: no-repeat;
+}
+
+#content1.service__block .service__text h2 {
+  position: absolute;
+  width: 444px;
+  height: 45px;
+  left: 780px;
+  top: 70px;
+
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 39px;
+  line-height: 58px;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+
+  color: #7CB794;
+}
+
+#content1.service__block .service__text h3 {
+    position: absolute;
+  width: 149px;
+  height: 45px;
+  left: 925px;
+  top: 144px;
+
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 45px;
+
+  text-align: center;
+
+  color: #333333;
+}
+
+#content1.service__block .service__text p {
+  position: absolute;
+  width: 450px;
+  height: 300px;
+  left: 775px;
+  top: 209px;
+  
+  font-family: 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  
+  color: #333333; 
+}
+
+#content1.service__block .service__button {
+  position: absolute;
+  width: 250px;
+  height: 60px;
+  left: 877px;
+  top: 509px;
+
+  background: #000000;
+}
+
+#content1.service__block .service__button h3 {
+  position: absolute;
+  width: 130px;
+  height: 25px;
+  left: 60px;
+  top: 18px;
+
+  font-family: '游ゴシック', 'Yu Gothic', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+
+  color: #FFEF5D;
+}
+
+/*
+  製品情報
+-----------------------------------------------*/
+#content2.service__block {
+  position: absolute;
+  width: 1440px;
+  height: 650px;
+  left: 0px;
+  top: 1512px;
+
+  background: #FFFFFF;
+}
+
+#content2.service__block .service__img {
+  position: absolute;
+  width: 550px;
+  height: 500px;
+  left: 719px;
+  top: 180px;
+  
+  background: url(../img/service_content2.png);
+}
+
+#content2.service__block .service__text h2 {
+  position: absolute;
+  width: 547px;
+  height: 45px;
+  left: 170px;
+  top: 180px;
+
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 39px;
+  line-height: 58px;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+
+  color: #7CB794;
+}
+
+#content2.service__block .service__text h3 {
+position: absolute;
+width: 149px;
+height: 45px;
+left: 369px;
+top: 255px;
+
+font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 45px;
+
+text-align: center;
+
+color: #333333;
+}
+
+#content2.service__block .service__text p {
+  position: absolute;
+  width: 450px;
+  height: 300px;
+  left: 219px;
+  top: 321px;
+  
+  font-family: 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 38px;
+  
+  display: flex;
+  align-items: center;
+  
+  color: #333333;  
+}
+
+#content2.service__block .service__button {
+  position: absolute;
+  width: 250px;
+  height: 60px;
+  left: 319px;
+  top: 620px;
+
+  background: #000000;
+}
+
+#content2.service__block .service__button h3 {
+  position: absolute;
+  width: 130px;
+  height: 25px;
+  left: 60px;
+  top: 18px;
+
+  font-family: '游ゴシック', 'Yu Gothic', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+
+  color: #FFEF5D;
+}
+
+/*
+  デザイン
+-----------------------------------------------*/
+#content3.service__block {
+  position: absolute;
+  width: 1440px;
+  height: 650px;
+  left: 0px;
+  top: 2402px;
+  
   background: #F7F7F7;
 }
 
-#content1.section-service__text  {
+#content3.service__block .service__img {
   position: absolute;
-width: 550px;
-height: 500px;
-left: 169px;
-top: 959px;
+  width: 550px;
+  height: 500px;
+  left: 169px;
+  top: 77px;
+  
+  background: url(../img/service_content3.png);
+}
+
+#content3.service__block .service__text h2 {
+  position: absolute;
+  width: 444px;
+  height: 45px;
+  left: 780px;
+  top: 70px;
+
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 39px;
+  line-height: 58px;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+
+  color: #7CB794;
+}
+
+#content3.service__block .service__text h3 {  
+  position: absolute;
+  width: 149px;
+  height: 45px;
+  left: 925px;
+  top: 144px;
+
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 45px;
+
+  text-align: center;
+
+  color: #333333;
+}
+
+#content3.service__block .service__text p {
+  position: absolute;
+  width: 450px;
+  height: 300px;
+  left: 775px;
+  top: 209px;
+  
+  font-family: 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  
+  color: #333333; 
+}
+
+#content3.service__block .service__button {
+  position: absolute;
+  width: 250px;
+  height: 60px;
+  left: 877px;
+  top: 509px;
+
+  background: #000000;
+}
+
+#content3.service__block .service__button h3 {
+  position: absolute;
+  width: 130px;
+  height: 25px;
+  left: 60px;
+  top: 18px;
+
+  font-family: '游ゴシック', 'Yu Gothic', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+
+  color: #FFEF5D;
 }
 /*-----------------------------------------------
 
