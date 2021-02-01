@@ -222,6 +222,49 @@ body {
   border-bottom: 3px solid #7CB794;
 }
 
+.section-tracking__ttl::before, .section-tracking__ttl::after {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 15px;
+  border-radius: 50%;
+
+  background-color: #7CB794;
+}
+
+.section-tracking__ttl::after {
+ top: -10px;
+ left: 0px;
+}
+
+.section-tracking__ttl::before {
+  top: -10px;
+  right: 0px;
+}
+
+.section-tracking__ttl2 {
+  position: absolute;
+  left: 170px;
+  top: 2197px;
+  width: 16px;
+  height: 15px;
+  border-radius: 50%;
+
+  background-color: #7CB794;
+}
+
+.section-tracking__ttl2::after {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 15px;
+  top: 0px;
+  right: -1092px;
+  border-radius: 50%;
+
+  background-color: #7CB794;
+}
+
 .section-tracking__ttl h2 {
   position: absolute;
   width: 500px;
@@ -327,6 +370,49 @@ body {
   border-bottom: 3px solid #7CB794;
 }
 
+.section-pairTime__ttl::before, .section-pairTime__ttl::after {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 15px;
+  border-radius: 50%;
+
+  background-color: #7CB794;
+}
+
+.section-pairTime__ttl::after {
+ top: -9px;
+ left: 0px;
+}
+
+.section-pairTime__ttl::before {
+  top: -9px;
+  right: 0px;
+}
+
+.section-pairTime__ttl2 {
+  position: absolute;
+  left: 170px;
+  top: 3399px;
+  width: 16px;
+  height: 15px;
+  border-radius: 50%;
+
+  background-color: #7CB794;
+}
+
+.section-pairTime__ttl2::after {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 15px;
+  top: -1px;
+  right: -1092px;
+  border-radius: 50%;
+
+  background-color: #7CB794;
+}
+
 .section-pairTime__ttl h2 {
   position: absolute;
   width: 500px;
@@ -422,6 +508,48 @@ body {
   border-bottom: 3px solid #7CB794;
 }
 
+.section-agentLab__ttl::before, .section-agentLab__ttl::after {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 15px;
+  border-radius: 50%;
+
+  background-color: #7CB794;
+}
+
+.section-agentLab__ttl::after {
+ top: -9px;
+ left: 0px;
+}
+
+.section-agentLab__ttl::before {
+  top: -9px;
+  right: 0px;
+}
+
+.section-agentLab__ttl2 {
+  position: absolute;
+  left: 170px;
+  top: 4650px;
+  width: 16px;
+  height: 15px;
+  border-radius: 50%;
+
+  background-color: #7CB794;
+}
+
+.section-agentLab__ttl2::after {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 15px;
+  top: 0px;
+  right: -1092px;
+  border-radius: 50%;
+
+  background-color: #7CB794;
+}
 .section-agentLab__ttl h2 {
   position: absolute;
   width: 500px;
