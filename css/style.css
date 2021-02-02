@@ -16,7 +16,7 @@
   2.footer
 
 -----------------------------------------------*/
-
+ 
 body {
   position: relative;
   width: 1440px;
@@ -34,7 +34,7 @@ body {
 
 -----------------------------------------------*/
 
-header {
+header {     
   position: absolute;
   width: 1440px;
   height: 100px;
@@ -495,7 +495,7 @@ a {
   left: 515px;
   top: 3140px;
   
-  border: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
 }
 
 .section-news__list li {
