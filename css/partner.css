@@ -1,0 +1,386 @@
+/*-----------------------------------------------
+
+  目次
+
+  1.product.html
+
+    1-1 メインビジュアル
+    1-2 
+  
+  2.footer
+
+-----------------------------------------------*/
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 3600px;
+    
+  margin-right: auto; /* 上下左右中央寄せ */
+  margin-left : auto; /* 上下左右中央寄せ */
+  /* 作業用色 */
+  /* background-color: #e6e6e6; */
+  background-color: #ffffff;
+}
+
+/*-----------------------------------------------
+
+1-1 メインビジュアル
+
+-----------------------------------------------*/
+
+.main-visual__partner {
+  position: absolute;
+  width: 1440px;
+  height: 400px;
+  left: 0px;
+  top: 100px;
+  
+  background: url(../img/partner_visual.png);
+}
+
+.main-visual__partner h2 {
+  position: absolute;
+  width: 680px;
+  height: 105px;
+  left: 437px;
+  top: 117px;
+  
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 105px;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-visual__partner h3 {
+  position: absolute;
+  width: 336px;
+  height: 83px;
+  left: 609px;
+  top: 229px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 172%;
+  
+  color: #FFFFFF;
+  
+  /* border: 1px solid #C4C4C4; */
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*-----------------------------------------------
+
+1-2 Business Partner パートナー募集 セクション
+
+-----------------------------------------------*/
+
+.section-partner__ttl {
+  position: absolute;
+  width: 1150px;
+  height: 0px;
+  left: 0px;
+  top: 750px;
+  
+  border: 3px solid #7CB794;
+}
+
+.section-partner__ttl h2 {
+  position: absolute;
+  width: 610px;
+  height: 90px;
+  left: 170px;
+  bottom: 1px;
+  
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 90px;
+
+  display: flex;
+  align-items: center;
+  
+  color: #000000;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section-partner__ttl h3 {
+  position: absolute;
+  width: 250px;
+  height: 35px;
+  left: 830px;
+  bottom: 25px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  
+  color: #000000;
+}
+
+/*
+  ビジネスパートナーの皆様へ
+-----------------------------------------------*/
+.partner-topic__ttl {
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 900px;
+  
+  background: #F6F6F6;
+}
+
+.partner-topic__ttl::after {
+  position: absolute;
+  width: 20px;
+  height: 60px;
+  left: 168px;
+  top: 20px;
+  content: '';
+
+  background: #6FCF97;
+}
+
+.partner-topic__ttl h2 {
+  position: absolute;
+  width: 475px;
+  height: 40px;
+  left: 215px;
+  top: 30px;
+  
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  
+  color: #333333;
+}
+
+.partner-topic__text {
+  position: absolute;
+  width: 1100px;
+  height: 250px;
+  left: 170px;
+  top: 1050px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  
+  color: #333333;
+}
+
+.partner-topic__img {
+  position: absolute;
+  width: 1100px;
+  height: 500px;
+  left: 170px;
+  top: 1350px;
+  
+  background: url(../img/partner_content1.png); 
+}
+
+/*
+  募集要項
+-----------------------------------------------*/
+.partner-point__ttl {
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 1950px;
+  
+  background: #F6F6F6;
+}
+
+.partner-point__ttl::after {
+  position: absolute;
+  width: 20px;
+  height: 60px;
+  left: 168px;
+  top: 20px;
+  content: '';
+
+  background: #6FCF97;
+}
+
+.partner-point__ttl h2 {
+  position: absolute;
+  width: 475px;
+  height: 40px;
+  left: 215px;
+  top: 30px;
+
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  
+  color: #333333;
+}
+
+.partner-point__text {
+  position: absolute;
+  width: 1100px;
+  height: 320px;
+  left: 168px;
+  top: 2100px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  
+  color: #000000;
+}
+
+/*
+  募集要項
+-----------------------------------------------*/
+.partner-entry__ttl {
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 2510px;
+  
+  background: #F6F6F6;
+}
+
+.partner-entry__ttl::after {
+  position: absolute;
+  width: 20px;
+  height: 60px;
+  left: 168px;
+  top: 20px;
+  content: '';
+
+  background: #6FCF97;
+}
+
+.partner-entry__ttl h2 {
+  position: absolute;
+  width: 475px;
+  height: 40px;
+  left: 215px;
+  top: 30px;
+
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  
+  color: #333333;
+}
+
+.partner-entry__text {
+  position: absolute;
+  width: 680px;
+  height: 52px;
+  left: 168px;
+  top: 2660px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  
+  color: #000000;
+}
+
+.partner-entry-form__box {
+  position: absolute;
+  width: 400px;
+  height: 180px;
+  left: 529px;
+  top: 2805px;
+  
+  background: #7CB794;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.partner-entry-form__box::after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  left: 0px;
+  top: 0px;
+
+  border-style: solid;
+  border-width: 101px 101px 0 0;
+  border-color: #ffef5d transparent transparent transparent;
+}
+
+.partner-entry-form__box::before {
+  position: absolute;
+  width: 380px;
+  height: 160px;
+  left: 10px;
+  top: 10px;
+  content: '';
+
+  background: linear-gradient(0deg, #7CB794, #7CB794);
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.partner-entry-form__box h2 {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  left: 50px;
+  top: 40px;
+  
+  font-family: 'フォーク Pro R', 'Folk Pro Regular', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  color: #FFFFFF;
+}
+
+
+/*-----------------------------------------------
+
+2 footer
+
+-----------------------------------------------*/
+
+.footer {
+  position: absolute;
+  width: 1440;
+  height: 450;
+  left: 0px;
+  top: 3150px;
+}
+ 
