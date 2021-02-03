@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/news-list.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <title>NEWS一覧</title>
@@ -21,7 +21,7 @@
         <li><a href="index.html">HOME</a></li>
         <li><a href="company.html">会社概要</a></li>
         <li><a href="service.html">事業内容</a></li>
-        <li><a href="#">NEWS</a></li>
+        <li><a href="news-list.html">NEWS</a></li>
         <li><a href="#">採用情報</a></li>
         <li><a href="#">パートナー募集</a></li>
         <li><a href="#">お問合せ</a></li>
@@ -43,7 +43,7 @@
         </div>
         <ul class="section-newsList__list">
           <li>
-            <a href="#">
+            <a href="news-1.html">
             <div>
               <time datetime="2020-01-01">2020.01.01</time>
             </div>
@@ -124,16 +124,16 @@
           </li>
         </ul>
         <!-- ページネーション -->
-        <ol class="section-newsList__page newsList-page">
-          <li class="newsList-page__pre"><a href="#"></a></li>
-          <li class="newsList-page__current"><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li class="newsList-page__dots">...</li>
-          <li><a href="#">6</a></li>
-          <li class="newsList-page__next"><a href="#"></a></li>
-        </ol>
+        <div class="section-newsList__page newsList-page">
+          <a class="newsList-page-prev" href="#"></a>
+          <a class="newsList-page-numbers" href="#">1</a><!-- 現在地点 -->
+          <span class="newsList-page-numbers current">2</span>
+          <a class="newsList-page-numbers" href="#">3</a>
+          <a class="newsList-page-numbers" href="#">4</a>
+          <span class="newsList-page-numbers dots">…</span><!-- ...の部分 -->
+          <a class="newsList-page-numbers" href="#">6</a>
+          <a class="newsList-page-next" href="#"></a>
+        </div>
     </section>
   </main>
    <!-- フッター -->
