@@ -1,0 +1,255 @@
+/*-----------------------------------------------
+
+  目次
+
+  1.product.html
+
+    1-1 メインビジュアル
+    1-2 News ニュース セクション
+      ページネーション
+  
+  2.footer
+
+-----------------------------------------------*/
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 2300px;
+
+  margin-right: auto; /* 上下左右中央寄せ */
+  margin-left : auto; /* 上下左右中央寄せ */
+  /* 作業用色 */
+  /* background-color: #e6e6e6; */
+  background: #FFFFFF;
+}
+
+/*-----------------------------------------------
+
+1-1 メインビジュアル
+
+-----------------------------------------------*/
+
+.main-visual__news {
+  position: absolute;
+  width: 1440px;
+  height: 400px;
+  left: 0px;
+  top: 100px;
+  
+  background: url(../img/news-list_visual.png);
+}
+
+.main-visual__news h2 {
+  position: absolute;
+  width: 227px;
+  height: 124px;
+  left: 595px;
+  top: 106px;
+  
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 172%;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-visual__news h3 {
+  position: absolute;
+  width: 192px;
+  height: 83px;
+  left: 627px;
+  top: 227px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 172%;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*-----------------------------------------------
+
+1-2 News ニュース セクション
+
+-----------------------------------------------*/
+
+.section-newsList__ttl h2{
+  position: absolute;
+  width: 190px;
+  height: 90px;
+  left: 484px;
+  top: 650px;
+
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 90px;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section-newsList__ttl h3 {
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  left: 736px;
+  top: 683px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.section-newsList__list {
+  list-style: none;
+  position: absolute;
+  width: 900px;
+  height: 0px;
+  left: 285px;
+  top: 886px;
+  
+  border-top: 1px solid #C4C4C4;
+}
+
+.section-newsList__list li {
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.section-newsList__list li div {
+  display: table-cell;
+  padding: 20px 55px;
+  width: 150px;
+  top: 20px;
+  
+  font-family: '游ゴシック', 'Yu Gothic', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #333333;
+}
+
+.section-newsList__list li p {
+  display: table-cell;
+  padding: 20px 71px;
+  left: 720px;
+  top: 20px;
+
+  font-family: '游ゴシック', 'Yu Gothic', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  
+  color: #333333;
+}
+
+.section-newsList__list time {
+  display: table-cell;
+  vertical-align: top;
+  width: 90px;
+}
+
+/*
+  ページネーション
+-----------------------------------------------*/
+.section-newsList__page {
+  position: absolute;
+  width: 500px;
+  height: 40px;
+  left: 514px;
+  top: 1741px;
+
+  display:flex;
+  justify-content:center;
+}
+
+.newsList-page-numbers {
+  width:40px;
+  height:40px;
+
+  margin:10px;
+  padding-top: 8px;
+  line-height:20px;
+  text-align:center;
+  font-size:14px;
+  font-weight:bold;
+  text-decoration:none;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+
+  color: #000000;
+  transition:.3s;
+}
+
+
+.section-newsList__page .current {
+  border: 2px solid #7CB794;;
+  box-sizing: border-box;
+  color: #7CB794;
+}
+
+.dots {
+
+  border: none;
+}
+
+.newsList-page-prev {
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 30px;
+  top: 10px;
+
+  border-style: solid;
+  border-width: 17.5px 30.3px 17.5px 0;
+  border-color: transparent #c4c4c4 transparent transparent;
+}
+
+.newsList-page-next {
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 30px;
+  top: 10px;
+
+  border-style: solid;
+  border-width: 17.5px 0 17.5px 30.3px;
+  border-color: transparent transparent transparent #7cb794;
+}
+
+/*-----------------------------------------------
+
+2 footer
+
+-----------------------------------------------*/
+
+.footer {
+  position: absolute;
+  width: 1440;
+  height: 450;
+  left: 0px;
+  top: 1850px;
+}
+ 

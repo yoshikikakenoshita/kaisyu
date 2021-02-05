@@ -1,0 +1,353 @@
+/*-----------------------------------------------
+
+  目次
+
+  1.design.html
+
+    1-1 メインビジュアル
+    1-2 Design デザイン セクション
+      デザイン実績
+  
+  2.footer
+
+-----------------------------------------------*/
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 3500px;
+    
+  margin-right: auto; /* 上下左右中央寄せ */
+  margin-left : auto; /* 上下左右中央寄せ */
+  /* 作業用色 */
+  /* background-color: #e6e6e6; */
+  background-color: #ffffff;
+}
+
+/*-----------------------------------------------
+
+1-1 メインビジュアル
+
+-----------------------------------------------*/
+
+.main-visual__design {
+  position: absolute;
+  width: 1440px;
+  height: 400px;
+  left: 0px;
+  top: 100px;
+  
+  background: url(../img/design_visual.png);
+}
+
+.main-visual__design h2 {
+  position: absolute;
+  width: 288px;
+  height: 124px;
+  left: 568px;
+  top: 108px;
+  
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 172%;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-visual__design h3 {
+  position: absolute;
+  width: 192px;
+  height: 83px;
+  left: 616px;
+  top: 229px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 172%;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*-----------------------------------------------
+
+1-2 Design デザイン セクション
+
+-----------------------------------------------*/
+
+.section-design__ttl {
+  position: absolute;
+  width: 715px;
+  height: 0px;
+  left: 0px;
+  top: 750px;
+  
+  border: 3px solid #7CB794;
+}
+
+.section-design__ttl h2 {
+  position: absolute;
+  width: 240px;
+  height: 90px;
+  left: 170px;
+  bottom: 0px;
+  
+  font-family: 'ヒラギノ角ゴ Std W8', 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 90px;
+  
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  
+  color: #000000;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section-design__ttl h3 {
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  left: 460px;
+  bottom: 25px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;  
+}
+
+.section-desgin__text h2 {
+  position: absolute;
+  width: 1100px;
+  height: 40px;
+  left: 169px;
+  top: 851px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  
+  color: #000000;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section-desgin__text p {
+  position: absolute;
+  width: 1000px;
+  height: 260px;
+  left: 220px;
+  top: 950px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  
+  display: flex;
+  align-items: center;
+  
+  color: #333333;
+}
+
+.section-design__flow {
+  position: absolute;
+  width: 1000px;
+  height: 70px;
+  left: 220px;
+  top: 1300px;
+  
+  background: #7CB794;
+}
+
+.section-design__flow h2 {
+  position: absolute;
+  width: 220px;
+  height: 50px;
+  left: 389px;
+  top: 15px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  
+  color: #FFFFFF;
+}
+
+.section-design__img {
+  position: absolute;
+  width: 1100px;
+  height: 230px;
+  left: 170px;
+  top: 1400px;
+  
+  background: url(../img/design_content1.png);
+}
+
+.design-img__text h2 {
+  position: absolute;
+  width: 1000px;
+  height: 100px;
+  left: 220px;
+  top: 1643px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  
+  color: #333333;
+}
+
+/*
+  デザイン実績
+-----------------------------------------------*/
+.design-achievement__ttl {
+  position: absolute;
+  width: 1440px;
+  height: 130px;
+  left: 0px;
+  top: 1900px;
+  
+  background: #B8DFC8;
+}
+
+.design-achievement__ttl h2 {
+  position: absolute;
+  width: 900px;
+  height: 40px;
+  left: 270px;
+  top: 45px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+.achievement-img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
+.img-1 {
+  left: 168px;
+  top: 2104px;
+  
+  background: url(../img/design_content2.png);
+}
+
+.img-2 {
+  left: 569px;
+  top: 2104px;
+
+  background: url(../img/design_content3.png);
+}
+
+.img-3 {
+  left: 966px;
+  top: 2104px;
+
+  background: url(../img/design_content4.png);
+}
+
+.achievement-heading {
+  position: absolute;
+  width: 300px;
+  height: 60px;
+
+  background: #7CB794;
+}
+
+.heading-1 {top: 2457px; left: 168px;}
+
+.heading-2 {top: 2457px; left: 569px;}
+
+.heading-3 {top: 2457px; left: 966px;}
+
+.heading-item1 {
+  position: absolute;
+  top: 16px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;  
+}
+
+.text-1{left: 30px;}
+
+.text-2{left: 71px;}
+
+.text-3{left: 30px;}
+
+.text-item1 {
+  position: absolute;
+  width: 300px;
+  height: 109px;
+  top: 2558px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  
+  color: #333333;
+}
+
+.text-4{left: 168px;}
+
+.text-5{left: 569px;}
+
+.text-6{left: 966px;}
+
+/*-----------------------------------------------
+
+2 footer
+
+-----------------------------------------------*/
+
+.footer {
+  position: absolute;
+  width: 1440;
+  height: 450;
+  left: 0px;
+  top: 3050px;
+}
+ 
